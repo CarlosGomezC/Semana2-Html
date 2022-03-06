@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+   <meta charset = "UTF-8">
+   <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+   <meta name = "viewwport" content = "width=device-width, initial-scale=1.0">
+   <title>Pastelería Gómez </title>
+   <style>
+    body{
+        background-color: rgb(240, 241, 151);
+    }
+</style>
+</head>
+<body>
+    <h1>Pastelería Gómez </h1>
+    <img src="logo.png" alt="Logo" height="150px" width="150px">
+    <p>
+        Pasteleria Gómez, pasteles de calidad para eventos de calidad
+    </p>
+    <h2>Esta es la variedad que tenemos para ti</h2>
+    <table>
+        <tr>
+            <th>Pastel</th>
+            <th>Foto</th>
+            <th>Precio $</th>
+        </tr>
+        <tr>
+            <td>Chocolate</td>
+            <td><img src="https://cdn2.cocinadelirante.com/sites/default/files/images/2017/10/pasteldechocolatevegano.jpg" alt="Choco" width="50px" height="50px"></td>
+            <td>$250</td>
+        </tr>
+        <tr>
+            <td>Tres Leches</td>
+            <td><img src="https://www.fiestaideasclub.com/wp-content/uploads/2018/12/Pastel-de-3-leches-con-RomPompe.jpg" alt="3leches" width="50px" height="50px"></td>
+            <td>$270</td>
+        </tr>
+        <tr>
+            <td>Red Velvet</td>
+            <td><img src="https://www.pequerecetas.com/wp-content/uploads/2017/12/red-velvet-cake-1.jpg" alt="Red" width="50px" height="50px"></td>
+            <td>$300</td>      
+        </tr>
+        <tr>
+            <td>Vainilla</td>
+            <td><img src="https://th.bing.com/th/id/R.4dda6a52216a66f4e0833e37a05dca40?rik=FaZR30Pm4NzWFA&pid=ImgRaw&r=0" alt="Vainilla" width="50px" height="50px"></td>
+            <td>$250</td>     
+        </tr> 
+    </table>
+    <h3>Adornos</h3>
+    <ul>
+        <li>Adorno simple</li>
+        <li>Dibujo simple ($100)</li>
+        <li>Figura especial ($200)</li>
+        <li>Frase ($150)</li>
+    </ul>
+    <hr>
+    <h3>Haz tu pedido</h3>
+    <label for ="pastel">Ingresa que pastel vas a querer (puedes combinar hasta 2)</label><br>
+    <input type ="sabor" id = "pastel1" name = "pastel1"><br><br>
+
+    <h4>Adornos para tu pastel</h4>
+    <input type = "checkbox" id = "topping1" name = "topping1" value = "simple">
+    <label for = "topping1">Adorno simple </label><br>
+    <input type = "checkbox" id = "topping1" name = "topping1" value = "simple">
+    <label for = "topping1">Dibujo simple ($100)</label><br>
+    <input type = "checkbox" id = "topping2" name = "topping2" value = "especial">
+    <label for = "topping2">Figura especial ($200)</label><br>
+    <input type = "checkbox" id = "topping3" name = "topping3" value = "frase">
+    <label for = "topping3">Frase ($150)</label><br><br>
+
+    <h4>Ingresa tus datos</h4>
+    <label for ="nombre">Nombre</label><br>
+    <input type ="name" id = "name1" name = "name1"><br><br>
+    <label for ="apellido">Apellido</label><br>
+    <input type ="apell" id = "apellido1" name = "apellido1"><br><br>
+    <label for ="correo">Correo</label><br>
+    <input type ="email" id = "email1" name = "email1"><br><br>
+    <label for ="telefono">Telefono</label><br>
+    <input type ="number" id = "telefono1" name = "telefono1"><br><br>
+    <label for ="direccion">Direccion</label><br>
+    <input type ="location" id = "direccion1" name = "direccion1"><br><br>
+
+    <h4>Para cuando es tu pedido</h4>
+    <input type="datetime-local" id="fecha2" name="fecha2"><br><br>
+
+    <input type="reset">
+    <input type="submit"><br><br>
+    <hr>
+    <p>Información del negocio</p>
+    <p>Telefono: 55-5555-5555</p>
+    <p>Calle 7 Col. Evolución Estado de México</p>
+    <p>Lunes a viernes de 9:00 am a 7:00 pm y</p>
+    <p>Sábado y domingo de 11:00 am a 6:00 pm</p>
+    <hr>
+
+</body>
+
+</html>
